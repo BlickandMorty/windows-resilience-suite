@@ -1,0 +1,266 @@
+# Historical File-Change Catalog
+
+This catalog records every distinct basename observed in the complete file-change history of the two primary Codex tasks. Basenames are used instead of personal absolute paths. A name appearing here does not mean it was published verbatim; one-off, personal, incompatible, secret-bearing, or bypass-capable artifacts are documented but excluded.
+
+- Lockdown history: 139 distinct basenames across 300 file-change operations.
+- Performance history: 101 distinct basenames across 331 file-change operations.
+
+## Lockdown task
+
+- `.codex-apply-patch-test.txt`
+- `00-Audit.ps1`
+- `01-Apply-Lockdown.ps1`
+- `02-Install-NextDNS.ps1`
+- `03-Verify-Lockdown.ps1`
+- `04-Finalize-ResetOnly.ps1`
+- `05-Install-Network-Policy-Enforcer.ps1`
+- `06-Export-NextDNS-Denylist.ps1`
+- `07-Finalize-Websites-NoKey.ps1`
+- `08-Apply-Gaming-Compatibility-Fix.ps1`
+- `09-Allow-ChatGPT-Extension.ps1`
+- `10-Finalize-Core-Websites-NoKey.ps1`
+- `11-Finalize-Full-Websites-NoKey.ps1`
+- `12-Apply-Core-Websites-DebugMode.ps1`
+- `13-Allow-ICloud-Photos-Download.ps1`
+- `14-Reblock-After-ICloud-Photos.ps1`
+- `15-Allow-3DS-Homebrew-Downloads.ps1`
+- `16-Reblock-After-Trusted-Downloads.ps1`
+- `17-Apply-SoftAdmin-CoreLock.ps1`
+- `18-Allow-GitHub-LinkedIn-WorkWindow.ps1`
+- `19-Finalize-Core-FullNoAdmin-NoKey.ps1`
+- `20-Finalize-Full-FullNoAdmin-NoKey.ps1`
+- `21-Enable-Safe-Downloads-And-Trusted-Services.ps1`
+- `22-Install-Gaming-Homebrew-Toolkit.ps1`
+- `23-Run-All-SafeLockdown-And-GamingSetup.ps1`
+- `24-Backup-3DS-SD-Card.ps1`
+- `25-Install-Safe-Work-Essentials.ps1`
+- `27-Verify-Core-Lockdown-And-Compatibility.ps1`
+- `28-Verify-Work-And-Developer-Readiness.ps1`
+- `29-Install-Approved-Bookmarks.ps1`
+- `30-Preflight-Complete-Setup.ps1`
+- `31-Install-Comprehensive-Developer-Toolchain.ps1`
+- `32-Install-Codex-Terminal.ps1`
+- `34-Resume-Complete-Developer-Setup.ps1`
+- `35-Verify-Comprehensive-Developer-Toolchain.ps1`
+- `36-Resume-Developer-Setup-After-Interruption.ps1`
+- `37-Repair-Developer-Command-Paths.ps1`
+- `38-Verify-EditorFree-Compiler-Stack.ps1`
+- `39-Install-EditorFree-Compiler-Stack.ps1`
+- `3DS-Finalizing-Setup.url`
+- `3DS-Game-Dumping.url`
+- `3DS-Hacks-Guide.url`
+- `40-Repair-Swift-Toolchain.ps1`
+- `41-Remove-Gui-Code-Editors.ps1`
+- `42-Preflight-NoKey-Finalization.ps1`
+- `43-Finalize-Ready-Core-NoKey.ps1`
+- `44-Verify-After-NoKey-Finalization.ps1`
+- `45-Verify-NextDNS-Profile.ps1`
+- `46-Import-Core-NextDNS-Denylist.ps1`
+- `47-Set-Up-NextDNS-Once.ps1`
+- `48-Apply-Current-Core-Policy.ps1`
+- `50-Clean-Safe-Game-Leftovers.ps1`
+- `51-Fix-PvZ-Startup-Window.ps1`
+- `52-Apply-Selective-Hard-Gates.ps1`
+- `53-Launch-Selective-Hard-Gates-Setup.ps1`
+- `54-Finish-Selective-NextDNS-Policy.ps1`
+- `55-Create-Windows-Only-NextDNS-Profile.ps1`
+- `56-Finalize-Selective-Browser-And-Enforcer.ps1`
+- `57-Add-Music-Streaming-Hard-Gates.ps1`
+- `58-Enable-NextDNS-Uninstall-Resilience.ps1`
+- `99-Package-Kit.ps1`
+- `AGENTS.md`
+- `AI-SAFETY-BOUNDARY.md`
+- `APPLY SELECTIVE HARD GATES.cmd`
+- `Apply Selective Hard Gates.vbs`
+- `APPLY-CURRENT-CORE-POLICY.cmd`
+- `Approved-Managed-Bookmarks.json`
+- `ATTACHED-3DS-REPAIR-KIT-AUDIT.txt`
+- `Audit-Installed-Emulators.ps1`
+- `Audit-Offline-Guides.ps1`
+- `Backup-3DS-SD-Card.ps1`
+- `Build-Approved-Bookmarks.ps1`
+- `ClassicPopCapWindowFrameWatcher.ps1`
+- `codex-yolo.cmd`
+- `Columbia-CourseWorks.url`
+- `Columbia-Software-Downloads.url`
+- `Columbia-SSOL.url`
+- `COLUMBIA-START-BOOKMARKS.html`
+- `Columbia-VPN-Official.url`
+- `COMPLETION-AUDIT.txt`
+- `config.lockdown.json`
+- `CORE-BLOCK-BOUNDARY.txt`
+- `DEFENDER-SCAN-RESULT.txt`
+- `DEVELOPER-TOOLS-START-HERE.txt`
+- `DS-Homebrew-Wiki.url`
+- `DSi-CFW-Guide.url`
+- `DSI-START-HERE.txt`
+- `Enable NextDNS Resilience.vbs`
+- `Enforce-NetworkPolicy.ps1`
+- `Finish PvZ Startup Fix.vbs`
+- `Finish Selective Website Policy.vbs`
+- `Finish Windows Lockdown.vbs`
+- `Finish Windows-Only Website Policy.vbs`
+- `GitHub.url`
+- `Google-Drive-Desktop.url`
+- `Jump-Desktop-Setup.url`
+- `LeanPerformanceV2.ps1`
+- `Lockdown.Common.ps1`
+- `MACBOOK-CODEX-HANDOFF-PROMPT.md`
+- `merge_guides.py`
+- `Microsoft-365-Columbia.url`
+- `NEW-3DS-START-HERE.txt`
+- `OPEN-OFFLINE-GUIDES.cmd`
+- `Open-Offline-Guides.ps1`
+- `OWNED-GAME-DUMPING-START-HERE.txt`
+- `Package-Complete-Toolkit.ps1`
+- `PCSX2-BIOS-From-Your-Own-Console.url`
+- `PCSX2-Owned-Disc-Setup.url`
+- `pnpm-workspace.yaml`
+- `POST-INSTALL-MANUAL-CHECKLIST.txt`
+- `README-FIRST.txt`
+- `README.md`
+- `Repair-Official-Downloads.ps1`
+- `Repair-Physical-Audio.cmd`
+- `Repair-Physical-Audio.ps1`
+- `Run Safe Game Cleanup.vbs`
+- `Run-All-Lockdown.ps1`
+- `RUN-EVERYTHING-SAFE.cmd`
+- `RUN-EVERYTHING-SAFE.ps1`
+- `SafeWindowedSteamLaunch.ps1`
+- `SCHOOL-WORK-AND-REMOTE-ACCESS.txt`
+- `SD-CARD-TOOLS.txt`
+- `SD-Memory-Card-Formatter.url`
+- `Serve-Static.ps1`
+- `SOURCE-SNAPSHOT-COMMITS.txt`
+- `SOURCES-METADATA.csv`
+- `Start Selective Hard Gates.vbs`
+- `Start-AdminPowerShell.ps1`
+- `Stop-Offline-Guides.ps1`
+- `test.txt`
+- `trim_trailing_blank_pages.py`
+- `Update-Toolkit-Manifests.ps1`
+- `VERIFICATION-SUMMARY.txt`
+- `Verify-Complete-Toolkit.ps1`
+- `Verify-Toolkit-Hashes.ps1`
+- `WINDOWS-LOCKDOWN-FINAL-ARCHIVES.txt`
+- `WindowsLockdownKit-System-Enforcer-Check.ps1`
+- `Zoom-Download.url`
+- `Zotero-Download-And-Connectors.url`
+
+## Performance task
+
+- `aggressive-pruning-guide.md`
+- `Audit-LockdownScheduler.ps1`
+- `AUDIT-OF-WORK-DONE.md`
+- `Audit-XPS-Vendor-GPU-Stack.ps1`
+- `BackgroundStartupPolicy.ps1`
+- `Backup-Codex-State.ps1`
+- `Backup-Laptop-Polish.ps1`
+- `CANONICAL-SETUP-2026-07-25.md`
+- `ClassicPopCapWindowFrameWatcher.ps1`
+- `cleaned-thread-reconstruction.md`
+- `cleaned-thread-reconstruction.txt`
+- `Cleanup-RemovedGames-Safe.ps1`
+- `ColdShutdownGuard.ps1`
+- `completion-audit.md`
+- `current-laptop-protected-inventory.md`
+- `CURRENT-STATUS.md`
+- `Finalize-PlatformCleanup-Admin.ps1`
+- `GAME-COMPATIBILITY-AUDIT.md`
+- `GAME-MODE-CONTROL.md`
+- `GameModeControl.ps1`
+- `GAMING-POWER-PROFILES.md`
+- `GamingPowerProfiles.ps1`
+- `gemini-thread-preservation-fused.md`
+- `index.html`
+- `Install-LichessApp.ps1`
+- `Install-SystemStartupMaintenanceTask.ps1`
+- `LeanPerformanceV2.ps1`
+- `Lichess.url`
+- `manual-checklist.md`
+- `Oneness-Audio-Player.ps1`
+- `ONENESS-MUSIC-README.txt`
+- `Open-CTTWinUtil.ps1`
+- `optimization-profile.json`
+- `Publish-Canonical-Backups.ps1`
+- `QUICK_START.txt`
+- `QuickProfileSwitch.ps1`
+- `raw-surviving-workpulse-insightful-script.txt`
+- `README.md`
+- `RECOVERY-HARDENING-20260722.md`
+- `Remove-Edge-Aggressive-Optional.ps1`
+- `Remove-Xbox-Epic.ps1`
+- `Repair-Dell-XPS-AppStack.ps1`
+- `Repair-HiddenMaintenanceTasks.ps1`
+- `research-notes.md`
+- `RUN_ME.cmd`
+- `Run-AggressiveApply.ps1`
+- `Run-AggressiveAudit.ps1`
+- `Run-DeepAudit.ps1`
+- `RUN-DELL-XPS-REPAIR-AS-ADMIN.cmd`
+- `RUN-GAMING-01-ADMIN-INSTALL-AUTO-PROFILES.cmd`
+- `RUN-GAMING-02-OPEN-NVIDIA-AUTO-TUNING.cmd`
+- `RUN-GAMING-03-STATUS.cmd`
+- `RUN-GAMING-04-ADMIN-REMOVE-AUTO-PROFILES.cmd`
+- `RUN-GAMING-05-ADMIN-FINALIZE-WATCHDOG-PROOF.cmd`
+- `RUN-GAMING-06-RESCAN-NEW-GAMES.cmd`
+- `RUN-GAMING-07-REFRESH-AND-PUBLISH-BACKUPS.cmd`
+- `Run-Integrity-Scan-Admin.ps1`
+- `RUN-ME-V2.cmd`
+- `RUN-REMOVE-XBOX-EPIC.cmd`
+- `RUN-SAFE-FULL-SHUTDOWN-AND-EJECT-USB.cmd`
+- `Run-StartupMaintenance-Hidden.vbs`
+- `RUN-V2-00-AUDIT-ONLY.cmd`
+- `RUN-V2-01-SAFE-NONADMIN.cmd`
+- `RUN-V2-02-ADMIN-DO-EVERYTHING-PROTECTED.cmd`
+- `RUN-V2-03-ADMIN-ULTRA-MINIMAL-OPTIONAL.cmd`
+- `RUN-V2-04-ADMIN-RESTORE-V2-BASELINE.cmd`
+- `RUN-V2-05-ADMIN-INSTALL-MAINTENANCE-SCHEDULE.cmd`
+- `RUN-V2-06-RUN-DAILY-MAINTENANCE-NOW.cmd`
+- `RUN-V2-07-ADMIN-RUN-WEEKLY-MAINTENANCE-NOW.cmd`
+- `RUN-V2-08-ADMIN-REMOVE-MAINTENANCE-SCHEDULE.cmd`
+- `RUN-V2-09-ADMIN-APPLY-DELL-UPDATES-PLUGGED-IN.cmd`
+- `RUN-V2-10-ADMIN-RUN-POST-LOGON-RESTART-REFRESH-NOW.cmd`
+- `RUN-V2-11-ADMIN-RUN-POST-WINDOWS-UPDATE-REFRESH-NOW.cmd`
+- `RUN-V2-12-ADMIN-TEST-SHUTDOWN-RESTART-MARKER.cmd`
+- `RUN-V2-13-ADMIN-RUN-SCHEDULE-WATCHDOG-NOW.cmd`
+- `RUN-V2-14-VERIFY-EVERYTHING-STATUS.cmd`
+- `RUN-V2-15-ADMIN-RUN-STARTUP-REFRESH-NOW.cmd`
+- `RUN-V2-16-ADMIN-REBOOT-TO-FINISH-DELL-UPDATES.cmd`
+- `RUN-V2-17-ADMIN-POST-DELL-VERIFY-NOW.cmd`
+- `RUN-V2-18-ADMIN-REPAIR-WINDOWS-HEALTH.cmd`
+- `RUN-XPS-VENDOR-GPU-AUDIT-AS-ADMIN.cmd`
+- `SAFE-WINDOWED-GAMES.md`
+- `SafeWindowedSteamLaunch.ps1`
+- `Search-OptimizationEvidence.ps1`
+- `semantic-keyword-command-audit.md`
+- `Start-LeanOptimization.ps1`
+- `START-ONENESS-ALL-MEDIA.cmd`
+- `START-ONENESS-MUSIC-10.cmd`
+- `START-ONENESS-MUSIC-20.cmd`
+- `START-ONENESS-NATURE-SOUNDS.cmd`
+- `SteamLaunchPolicy.ps1`
+- `STOP-ONENESS-MUSIC.cmd`
+- `TEST_PACKAGE.cmd`
+- `Test-Package.ps1`
+- `Toggle-LightDarkMode.ps1`
+- `VerifyAdaptiveSelfHealAdmin.ps1`
+- `VerifyGamingAndV2Admin.ps1`
+- `XPS - Auto.vbs`
+- `XPS - Battery.vbs`
+- `XPS - Performance.vbs`
+- `XPS-Dell-NVIDIA-Intel-Health-Report.md`
+
+## Installed/canonical artifact families cross-checked separately
+
+- WindowsLockdownKit rule copies, Enforcer, Guardian, protected secret, authenticated manifest, canonical Baseline, backups, and logs.
+- Laptop-Polish canonical root, historical source archives, canonical ZIPs, launchers, reports, state baselines, gaming-power state, safe-windowed state, and maintenance markers.
+- Live XPS-LeanPerformance-V2 scripts: adaptive profile launcher, scheduler audit, background startup policy, cold-shutdown guard, game-mode control, power profiles, system-startup installer, LeanPerformanceV2, quick switcher, platform cleanup, hidden-task repair, hidden VBS launchers, safe-windowed launcher, Steam policy, theme toggle, and verification helpers.
+
+## Publication disposition
+
+- Reconstructed into the seven repositories: lockdown/enforcement, protected paths, lean performance, maintenance scheduling, gaming power, cleanup auditing, and backup integrity.
+- Compatibility-only school/developer/bookmark/homebrew artifacts were inventoried but are not part of this requested Windows systems suite.
+- Temporary exception/unblock stages and removal/bypass material for permanent hard gates are not published.
+- Personal reports, histories, live manifests, secrets, API/profile identifiers, device inventories, and historical ZIP duplicates are not published.
+
